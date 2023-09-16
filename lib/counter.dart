@@ -33,6 +33,11 @@ class _CounterState extends State<Counter> {
         centerTitle: true,
         title: Text('Counter App'),
         backgroundColor: Colors.amber,
+        actions: [
+          Icon(
+            Icons.person,
+          ),
+        ],
       ),
       body: Stack(
         children: [

@@ -99,7 +99,7 @@ class _CounterState extends State<Counter> {
                 'Designed by ADIL',
                 style: TextStyle(
                   fontSize: 10,
-                  color: Colors.grey,
+                  color: Color.fromARGB(255, 156, 153, 153),
                   decoration: TextDecoration.underline,
                 ),
               ),

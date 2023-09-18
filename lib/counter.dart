@@ -42,11 +42,11 @@ class _CounterState extends State<Counter> {
               children: [
                 Text(
                   'COUNTER',
-                  style: TextStyle(fontSize: 20, color: Colors.amber),
+                  style: TextStyle(fontSize: 21, color: Colors.amber),
                 ),
                 Text(
                   '$value',
-                  style: TextStyle(fontSize: 95),
+                  style: TextStyle(fontSize: 99),
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
